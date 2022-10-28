@@ -77,3 +77,9 @@
 .quiz__item:nth-child(8){
   border-bottom: none;
 }
+
+@media only screen and (max-width:1000px){
+  .quiz__container{
+    flex-direction: column;
+  }
+}

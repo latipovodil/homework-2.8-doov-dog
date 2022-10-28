@@ -1,4 +1,26 @@
-.footer{
-  background-color: #961914;
+.footer {
+  background-color: #69120E;
 }
 
+.footer__link {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width:1270px){
+  .footer__container{
+    flex-direction: column;
+    text-align: center;
+  }
+}
