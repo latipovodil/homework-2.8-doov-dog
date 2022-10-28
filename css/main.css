@@ -212,7 +212,7 @@ img {
   .header__menu-mobile {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url("../../img/header-menu.svg");
+    background-image: url("../img/header-menu.svg");
     border: none;
     width: 26px;
     height: 20px;
@@ -255,7 +255,7 @@ img {
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../img/hero-bgimg.jpg");
+  background-image: url("../img/hero-bgimg.jpg");
 }
 
 .hero__all-text {
@@ -447,7 +447,7 @@ img {
 .eat__container {
   margin-top: 80px;
   padding: 32px 80px;
-  background-image: url("../../img/eat-bgimg.svg");
+  background-image: url("../img/eat-bgimg.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: -webkit-box;
