@@ -1,0 +1,27 @@
+.how{
+  margin-bottom: 242px;
+}
+
+
+.how__link{
+  color: #961914;
+  text-decoration: underline;
+}
+
+.how__page-title1::before{
+  background-image: url('../img/how-img1.svg');
+}
+
+.how__page-title2::before{
+  background-image: url('../img/how-img2.svg');
+}
+
+.how__page-title3::before{
+  background-image: url('../img/how-img3.svg');
+}
+
+.how__page-title4::before{
+  background-image: url('../img/how-img4.svg');
+}
+
+

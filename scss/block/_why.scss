@@ -1,0 +1,104 @@
+.why__title {
+  margin-bottom: 57px;
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  display: block;
+}
+
+.why__page {
+  width: 280px;
+}
+
+.why__page-title {
+  margin-bottom: 8px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.why__page-text {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  max-width: 237px;
+  margin-bottom: 20px;
+}
+
+
+
+.why__page-title1::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url('../img/why1.svg');
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+
+}
+
+.why__page-title2::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url('../img/why2.svg');
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+
+}
+
+.why__page-title3::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url('../img/why3.svg');
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+
+}
+
+.why__page-title4::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url('../img/why4.svg');
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+
+}
+
+
+
+.why__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width:1280px) {
+  .why__page {
+    margin-top: 20px;
+  }
+
+  .why__box {
+    justify-content: center;
+  }
+}
+
